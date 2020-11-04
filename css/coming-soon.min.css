@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - Coming Soon v5.0.8 (https://startbootstrap.com/themes/coming-soon)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-coming-soon/blob/master/LICENSE)
+ */
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    min-height: 35rem;
+    position: relative;
+    font-family: 'Source Sans Pro';
+    font-weight: 300
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Merriweather;
+    font-weight: 700
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 0
+}
+
+@media (pointer:coarse) and (hover:none) {
+    body video {
+        display: none
+    }
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #a09f9d00;
+    opacity: .7;
+    z-index: 1
+}
+
+.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 3rem;
+    z-index: 2
+}
+
+.masthead .masthead-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    min-height: 35rem;
+    height: 110%;
+    background-color: rgba(160, 0, 0, .8);
+    transform: skewY(4deg);
+    transform-origin: bottom right
+}
+
+.logo {
+    width: 300px;
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    z-index: 3;
+}
+
+.masthead .masthead-content h1 {
+    color: #1E1E1E;
+    font-size: 2.5rem
+}
+
+
+
+.masthead .masthead-content p {
+    color: #1E1E1E;
+    font-size: 1.2rem
+}
+
+.masthead .masthead-content p strong {
+    font-weight: 700
+}
+
+@media (min-width:768px) {
+    .masthead {
+        height: 100%;
+        min-height: 0;
+        width: 40.5rem;
+        padding-bottom: 0
+    }
+
+    .masthead .masthead-bg {
+        min-height: 0;
+        transform: skewX(-8deg);
+        transform-origin: top right
+    }
+
+    .masthead .masthead-content {
+        padding-left: 3rem;
+        padding-right: 10rem
+    }
+
+    .masthead .masthead-content h1 {
+        font-size: 3.5rem
+    }
+
+    .masthead .masthead-content p {
+        font-size: 1.3rem
+    }
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d
+}
+
+
