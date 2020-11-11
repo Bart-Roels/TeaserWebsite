@@ -84,19 +84,19 @@ video {
 }
 
 .datum {
-    font-size: 20rem;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .masthead .masthead-content h1 {
-    color: #ffffff;
+
     font-size: 2.5rem
 }
 
 
-
 .masthead .masthead-content p {
     color: #ffffff;
-    font-size: 1.2rem
+    font-size: 1.2rem !important
 }
 
 .masthead .masthead-content p strong {
@@ -130,6 +130,7 @@ video {
     .masthead .masthead-content p {
         font-size: 1.3rem
     }
+
 }
 
 .btn-secondary {
